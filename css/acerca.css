@@ -1,4 +1,4 @@
-/* General */
+
 body {
     font-family: 'Dancing Script', cursive;
     background-color: #111;
@@ -110,7 +110,6 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
-/* Sección Tarjetas Flotantes */
 .cards-container {
     display: flex;
     justify-content: space-around;
@@ -156,7 +155,7 @@ header nav ul li a {
     background-color: #e0a800;
 }
 
-/* Modal */
+
 .modal {
     display: none; 
     position: fixed;
@@ -205,7 +204,7 @@ header nav ul li a {
     color: #e0a800;
 }
 
-/* Modal para código */
+
 .code-block {
     background-color: #1e1e1e;
     color: #dcdcdc;
@@ -220,7 +219,7 @@ header nav ul li a {
 .code-block code {
     white-space: pre-wrap;
 }
-/* Estilos para Misión y Visión */
+
 .proposito-section {
     padding: 50px;
     background-color: #222;
@@ -245,7 +244,7 @@ header nav ul li a {
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
-    width: 48%; /* Ajustar para que ambos bloques quepan en la misma fila */
+    width: 48%; 
     position: relative;
 }
 
@@ -260,7 +259,7 @@ header nav ul li a {
     margin: 10px 0;
 }
 
-/* Icono de Google en la esquina inferior */
+
 .icon {
     position: absolute;
     bottom: 10px;
@@ -271,12 +270,12 @@ header nav ul li a {
     width: 30px;
     height: 30px;
 }
-/* Estilos para el botón de descarga */
+
 .download-container {
     display: flex;
-    justify-content: center; /* Centra el botón horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente si el contenedor tiene altura */
-    margin-top: 20px; /* Ajusta según sea necesario */
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
 }
 
 #download-btn {
