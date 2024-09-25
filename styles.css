@@ -97,7 +97,7 @@ section {
     background-color: #e0a800;
 }
 
-/* Nuestra Historia (Sección) */
+/* seccion sobre nosotros  */
 #about {
     padding: 60px 20px;
     background-color: #222;
@@ -124,7 +124,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espacio entre las imágenes */
+    gap: 20px; 
     margin-top: 20px;
 }
 
@@ -132,7 +132,7 @@ section {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    width: 300px; /* Tamaño estándar para las imágenes */
+    width: 300px; 
 }
 
 
