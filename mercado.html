@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <link rel="stylesheet" href="css/acerca.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo.jpeg" alt="Logo de Mi Restaurante">
+            <h1> Padilla's game</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="acercaDe.html">Nosotros</a></li>
+                <li><a href="carros.html">Carros</a></li>
+                <li><a href="mercado.html">Mercado</a></li>
+                <li><a href="hoteles.html">Hoteles</a></li>
+                <li><a href="universidad.html">Materias</a></li>
+                <li><a href="restaurante.html">restaurante</a></li>
+            </ul>
+        </nav>
+    </header>
+    </header>
+
+    <h2>°</h2>
+    <h2>´</h2>
+   
+    
+
+    
+
+    <!-- Sección del Propósito -->
+    <section class="proposito-section">
+        <h2>En Mongo Db online, crear una base de datos de 40 productos del mercado</h2>
+        <h2>Misión y Visión</h2>
+        
+        <div class="row">
+            <!-- Sección de Misión -->
+            <div class="column">
+                <h3>Misión</h3>
+                <p>Utilizar las bases de datos como una ayuda para experiemntar el manejo de un negocio en este caso un restaurante enfocado en los videojuegos un lugar muy popular entre la juventud moderna.</p>
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1924/1924707.png" alt="Misión cumplida" class="icon">
+                </div>
+            </div>
+            
+            <!-- Sección de Visión -->
+            <div class="column">
+                <h3>Visión</h3>
+                <p>Aspiramos a que con este conocimiento podamos implementar proyectos más complejos en el futuro, aplicando lo aprendido en diferentes ámbitos del desarrollo web.</p>
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4072/4072951.png" alt="Visión" class="icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     
+    <!-- Sección con tarjetas flotantes  -->
+<section class="cards-container">
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado1.png" alt="Especialidad 1" class="card-img">
+        <h3>encontrar un solo producto en el mercado </h3>
+        <button class="view-more-btn" data-card="1">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado2.png" alt="Especialidad 2" class="card-img">
+        <h3>encontrar los productos que valen mas de 8000</h3>
+        <button class="view-more-btn" data-card="2">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado3.png" alt="Especialidad 3" class="card-img">
+        <h3>encontrar los productos que tengan 25 o mas disponibles</h3>
+        <button class="view-more-btn" data-card="3">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado4.png" alt="Especialidad 4" class="card-img">
+        <h3>encontrar los productos que tengan un modelo menor a 5</h3>
+        <button class="view-more-btn" data-card="4">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado5.png" alt="Especialidad 5" class="card-img">
+        <h3>encontrar losproductos tengan un peso menor o igual a 2 kilogramos</h3>
+        <button class="view-more-btn" data-card="5">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado6.png" alt="Especialidad 6" class="card-img">
+        <h3>encontrar los productos cuyas unidades vendidas sea diferente de 10</h3>
+        <button class="view-more-btn" data-card="6">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado7.png" alt="Especialidad 7" class="card-img">
+        <h3>encontrar los productos cuya valoracion este entre 8 y 10</h3>
+        <button class="view-more-btn" data-card="7">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado8.png" alt="Especialidad 8" class="card-img">
+        <h3>encontrar los productos cuya valoracion no este entre 8 y 10</h3>
+        <button class="view-more-btn" data-card="8">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado9.png" alt="Especialidad 9" class="card-img">
+        <h3> encontrar los productos que tengan un precio mayor a 9000 y tenga mas de 25 unidades vendidas</h3>
+        <button class="view-more-btn" data-card="9">Ver más</button>
+    </div>
+    <div class="floating-card">
+        <img src="imgMercado/tarjetaMercado10.png" alt="Especialidad 10" class="card-img">
+        <h3>mostrar solo el primer elemento y  se mira que se edito la descripcion</h3>
+        <button class="view-more-btn" data-card="10">Ver más</button>
+    </div>
+</section>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <pre class="code-block">
+            <code id="modal-code"></code>
+        </pre>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <pre class="code-block">
+            <code id="modal-code"></code>
+        </pre>
+    </div>
+</div>
+
+
+    <div class="download-container"></div>
+            <button id="download-btn">Descargar archivo .js</button>
+        </div>
+    <!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <pre class="code-block">
+            <code id="modal-code"></code>
+        </pre>
+    </div>
+</div>
+    
+ <!-- JavaScript directamente en el HTML -->
+ <script>
+    document.getElementById("download-btn").addEventListener("click", function() {
+        const link = document.createElement("a");
+        link.href = "descargables/MERCADO.js"; 
+        link.download = "MERCADO.js"; 
+        link.click();
+    });
+</script>
+    <script src="js/mercado.js"></script>
+</body>
+<!-- Sección de Creadores -->
+<section class="proposito-section">
+
+    <h2>Creadores</h2>
+    <div class="creadores-container">
+        <div class="creador-card">
+            <img src="imgAcerca/creador1.webp" alt="Creador 1">
+            <h3> Omar Salazar</h3>
+            <p>Anti programacion, galactus y adicto al valorant</p>
+            
+        </div>
+        <div class="creador-card">
+            <img src="imgAcerca/creador2.webp" alt="Creador 2">
+            <h3>Stiven Burbano</h3>
+            <p>Gordito, roncon y adicto a la melcocha</p>
+            
+        </div>
+    </div>
+</section>
+</html>
