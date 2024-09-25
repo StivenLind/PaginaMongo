@@ -1,4 +1,4 @@
-/* General */
+
 body {
     font-family: 'Dancing Script', cursive;
     margin: 0;
@@ -59,7 +59,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Menú */
+
 .menu-section {
     padding: 100px 20px;
     background-color: #222;
@@ -75,21 +75,21 @@ nav ul li a:hover {
 
 .menu-section ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres elementos por fila */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     list-style: none;
     padding: 0;
 }
 
 .menu-section ul li {
-    border: 2px solid #ffc107; /* Contorno del <li> */
-    border-radius: 15px; /* Bordes redondeados */
+    border: 2px solid #ffc107; 
+    border-radius: 15px; 
     padding: 15px;
     transition: transform 0.3s;
 }
 
 .menu-section ul li:hover {
-    transform: scale(1.03); /* Efecto hover */
+    transform: scale(1.03); 
 }
 
 .menu-item {
@@ -105,13 +105,13 @@ nav ul li a:hover {
 }
 
 .menu-item:hover {
-    transform: scale(1.05); /* Animación al pasar el mouse */
+    transform: scale(1.05); 
 }
 
 .menu-item img {
-    width: 200px; /* Tamaño más grande de las imágenes */
+    width: 200px; 
     height: 200px;
-    border-radius: 50%; /* Forma ovalada */
+    border-radius: 50%; 
     object-fit: cover;
     margin-bottom: 20px;
 }
@@ -140,7 +140,7 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-/* Botón de compra */
+
 .buy-button {
     margin-top: 15px;
     padding: 10px 20px;
@@ -163,7 +163,7 @@ nav ul li a:hover {
     background-color: #ff6347;
 }
 
-/* Footer */
+
 footer {
     background-color: #000;
     color: #ffc107;
