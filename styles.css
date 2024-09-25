@@ -1,4 +1,4 @@
-/* General */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -97,7 +97,7 @@ section {
     background-color: #e0a800;
 }
 
-/* seccion sobre nosotros  */
+
 #about {
     padding: 60px 20px;
     background-color: #222;
@@ -136,7 +136,7 @@ section {
 }
 
 
-/* Footer */
+
 footer {
     background-color: #000;
     color: #ffc107;
